@@ -24,6 +24,9 @@ logs/
 # Kredensial database (lokal, jangan di-commit)
 mysql.ini
 
+# Konfigurasi server lokal (berisi password RCON dan pengaturan lokal)
+config.json
+
 # Folder unduhan sementara
 _unduhan/
 

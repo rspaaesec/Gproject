@@ -1,4 +1,4 @@
-{
+﻿{
     "announce": true,
     "artwork": {
         "cdn": "",
@@ -111,7 +111,7 @@
     "rcon": {
         "allow_teleport": false,
         "enable": false,
-        "password": "changeme1"
+        "password": "GANTI_DENGAN_PASSWORD_RCON"
     },
     "sleep": 5.0,
     "use_dyn_ticks": true,

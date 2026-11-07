@@ -1,4 +1,4 @@
-# Aturan Proyek: Server SA-MP Roleplay (Pawn)
+﻿# Aturan Proyek: Server SA-MP Roleplay (Pawn)
 
 ## Konteks
 - Server roleplay (utama) + freeroam kecil sebagai pelengkap.
@@ -17,6 +17,12 @@
 - main.pwn hanya meng-include modul, tanpa logika.
 - Satu sistem = satu folder di gamemodes/modules/<nama>/ (bukan modules/ di root).
 - Konfigurasi server memakai config.json (open.mp), bukan server.cfg.
+  - config.json adalah konfigurasi lokal — di-ignore Git, TIDAK di-commit.
+  - config.example.json adalah template yang di-commit; berisi placeholder,
+    bukan nilai nyata.
+  - Sebelum server dibuka ke publik, password RCON di config.json lokal
+    WAJIB diganti dari nilai bawaan.
+  - Password apa pun (RCON, database, dll.) tidak boleh masuk ke repo.
 - Callback ditangani per modul lewat hooking (y_hooks),
   bukan ditumpuk di main.pwn.
 
