@@ -23,6 +23,9 @@
 ## Dependensi
 - Kompilator: pawncc 3.10.11
 - Library YSI: v5.10.0006 (pawn-lang/YSI-Includes), berlokasi di qawno/include/ (tidak di-commit ke Git).
+- Plugin MySQL: BlueG mysql-plugin R41-4 (32-bit), DLL di plugins/ (tidak di-commit ke Git).
+- Include MySQL: a_mysql.inc di qawno/include/ (tidak di-commit ke Git).
+- Kredensial database hanya di mysql.ini yang di-ignore Git; jangan pernah menulis password di kode atau di AGENTS.md.
 - Perintah kompilasi resmi:
   `pawncc gamemodes/main.pwn -i:qawno/include -o:gamemodes/main "-;+" -d3`
 

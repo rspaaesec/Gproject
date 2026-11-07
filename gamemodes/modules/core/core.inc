@@ -5,4 +5,5 @@
 
 #include "modules/core/config.inc"
 #include "modules/core/log.inc"
+#include "modules/core/database.inc"
 #include "modules/core/lifecycle.inc"

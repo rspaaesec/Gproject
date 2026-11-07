@@ -11,10 +11,21 @@ components/
 plugins/*.dll
 plugins/
 
+# Support DLL plugin di root server
+libmariadb.dll
+log-core.dll
+
 # Server logs and runtime data
 log.txt
 bans.json
 scriptfiles/YSI/
+logs/
+
+# Kredensial database (lokal, jangan di-commit)
+mysql.ini
+
+# Folder unduhan sementara
+_unduhan/
 
 # Credentials and sensitive environment files
 .env
