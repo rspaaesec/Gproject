@@ -41,6 +41,15 @@
 - Konstanta/macro: HURUF_BESAR. Tidak ada angka ajaib.
 
 ## Database
+- Nama database lokal: gproject.
+- Skema dikelola lewat file migrasi di gamemodes/database/:
+  - File bernomor urut: 001_init.sql, 002_*.sql, dst.
+  - Setiap file harus idempotent (IF NOT EXISTS, INSERT IGNORE).
+  - Jangan mengedit file yang sudah di-import.
+  - Tanpa DROP/TRUNCATE tanpa konfirmasi eksplisit.
+  - Tanpa password atau data pribadi di file .sql.
+- Import: C:\laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysql.exe
+    -u root gproject < gamemodes/database/001_init.sql
 - Semua query memakai escape/parameter. Input mentah tidak
   boleh langsung masuk ke string query.
 - Query dijalankan asynchronous (threaded).

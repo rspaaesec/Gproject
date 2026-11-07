@@ -20,6 +20,7 @@ log.txt
 bans.json
 scriptfiles/YSI/
 logs/
+mysql.log
 
 # Kredensial database (lokal, jangan di-commit)
 mysql.ini
