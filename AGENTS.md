@@ -1,4 +1,4 @@
-﻿# Aturan Proyek: Server SA-MP Roleplay (Pawn)
+# Aturan Proyek: Server SA-MP Roleplay (Pawn)
 
 ## Konteks
 - Server roleplay (utama) + freeroam kecil sebagai pelengkap.
@@ -56,3 +56,8 @@
 - Di akhir tugas, laporkan: file yang diubah, cara tes manual,
   dan risiko/batasan yang diketahui.
 - Jangan mengubah file di luar lingkup tugas.
+## Encoding
+- Semua file teks proyek memakai UTF-8 TANPA BOM.
+- Di PowerShell 5.x jangan memakai Set-Content atau Out-File dengan
+  -Encoding UTF8 (menambahkan BOM). Gunakan:
+  [System.IO.File]::WriteAllText(path, text, (New-Object System.Text.UTF8Encoding($false)))
