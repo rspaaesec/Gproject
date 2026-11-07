@@ -1,4 +1,4 @@
-# Aturan Proyek: Server SA-MP Roleplay (Pawn)
+# Aturan Proyek: Gproject (Server SA-MP Roleplay, Pawn)
 
 ## Konteks
 - Server roleplay (utama) + freeroam kecil sebagai pelengkap.

@@ -7,7 +7,7 @@
 // Konstanta Proyek
 // =============================================================================
 
-#define GAMEMODE_NAME       "San Andreas Roleplay"
+#define GAMEMODE_NAME       "Gproject"
 #define GAMEMODE_VERSION    "0.1.0"
 
 // Tingkat Log
