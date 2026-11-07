@@ -1,7 +1,7 @@
-// Core module entry
 #if defined _MODULE_CORE_INCLUDED
     #endinput
 #endif
 #define _MODULE_CORE_INCLUDED
 
-// Core logic / initialization
+#include "modules/core/config.inc"
+#include "modules/core/log.inc"

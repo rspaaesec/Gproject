@@ -1,8 +1,9 @@
 #include <open.mp>
 
-// Modules
+// Modul proyek sesuai aturan AGENTS.md
 #include "modules/core"
 
 main()
 {
+    Log_Info("Gamemode dimuat");
 }
