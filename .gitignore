@@ -1,0 +1,36 @@
+# Compiled Pawn binaries
+*.amx
+
+# Server binaries and debug symbols
+omp-server.exe
+omp-server.pdb
+*.pdb
+
+# Server components and plugins
+components/
+plugins/*.dll
+plugins/
+
+# Server logs and runtime data
+log.txt
+bans.json
+
+# Credentials and sensitive environment files
+.env
+.env.*
+*.key
+*.pem
+*.secret
+*credentials*
+
+# Toolchain (bukan bagian proyek)
+qawno/
+
+# NPC modes bawaan
+npcmodes/
+
+# Contoh bawaan open.mp
+filterscripts/npc_trains.pwn
+gamemodes/derby.pwn
+gamemodes/gungame.pwn
+gamemodes/simpletdm.pwn
