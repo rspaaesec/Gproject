@@ -14,6 +14,7 @@ plugins/
 # Server logs and runtime data
 log.txt
 bans.json
+scriptfiles/YSI/
 
 # Credentials and sensitive environment files
 .env

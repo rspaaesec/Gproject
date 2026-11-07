@@ -11,6 +11,7 @@
 3. JANGAN mengarang native atau fungsi. Jika tidak yakin sebuah
    fungsi ada, katakan terus terang agar saya cek dokumentasi.
 4. Jangan mencampur sintaks SA-MP dan open.mp tanpa menyebutkannya.
+5. Titik koma wajib di akhir setiap pernyataan.
 
 ## Struktur
 - main.pwn hanya meng-include modul, tanpa logika.
@@ -18,6 +19,12 @@
 - Konfigurasi server memakai config.json (open.mp), bukan server.cfg.
 - Callback ditangani per modul lewat hooking (y_hooks),
   bukan ditumpuk di main.pwn.
+
+## Dependensi
+- Kompilator: pawncc 3.10.11
+- Library YSI: v5.10.0006 (pawn-lang/YSI-Includes), berlokasi di qawno/include/ (tidak di-commit ke Git).
+- Perintah kompilasi resmi:
+  `pawncc gamemodes/main.pwn -i:qawno/include -o:gamemodes/main "-;+" -d3`
 
 ## Penamaan
 - Fungsi: Modul_Aksi(), contoh Player_Login().
